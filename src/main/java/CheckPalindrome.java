@@ -23,9 +23,10 @@ public class CheckPalindrome extends Application {
 		
 		button = new Button("Comprobar");
 		button.setDefaultButton(true);
-		button.setOnAction(e -> onSaludarButtonAction(e));
+		button.setOnAction(e -> onComprobarButtonAction(e));
 		
 		lab = new Label();
+		
 		
 		VBox root = new VBox();
 		root.setSpacing(5);
@@ -40,7 +41,7 @@ public class CheckPalindrome extends Application {
 		primaryStage.show();
 	}
 
-	private void onSaludarButtonAction(ActionEvent e) {	
+	private void onComprobarButtonAction(ActionEvent e) {	
 		String palindromo = text.getText();	
 		boolean esPal=true;
 		int j=palindromo.length()-1;
