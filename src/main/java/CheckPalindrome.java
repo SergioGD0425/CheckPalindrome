@@ -18,7 +18,7 @@ public class CheckPalindrome extends Application {
 	public void start(Stage primaryStage) throws Exception {
 		
 		text = new TextField();
-		text.setPromptText("Introduce un palíndromo");
+		text.setPromptText("Introduce un texto");
 		text.setMaxWidth(150);
 		
 		button = new Button("Comprobar");
